@@ -14,16 +14,20 @@ var SHARE = (function(){
 	return{
 		twitter: function (options) {
 			var url = "https://twitter.com/share?" + makeParamStr(options);
-			window.location.assign(url);
+			window.location = url;
+		},
+		facebook: function (href) {
+			var url = "https://facebook.com/sharer/sharer.php?u=" + href;
+			window.location = url;
+		},
+		pinterest: function (options) {
+			var url = "https://www.pinterest.com/pin/create/button/?" + makeParamStr(options);
+			window.location = url;
 		}
 	}	
 
 })();
 
-setTimeout(function () {
-	SHARE.twitter({
-		url: "http://twitter.com",
-		via: "deanwagman",
-		hashtags: "testing,for,the,win"
-	});
-}, 3000);
+// setTimeout(function () {
+	
+// }, 3000);
