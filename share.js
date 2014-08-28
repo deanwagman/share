@@ -1,5 +1,8 @@
 var SHARE = (function(){
 	// Private Variables
+
+	// Concats object into URL search parameter
+		// Todo: Make sure each property is a property that the Social Network Accepts
 	var makeParamStr = function (obj) {
 		var paramStr = "";
 		for (var property in obj) {
@@ -29,5 +32,5 @@ var SHARE = (function(){
 })();
 
 // setTimeout(function () {
-	
+
 // }, 3000);
