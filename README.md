@@ -7,11 +7,11 @@ Simple sharing plugin for twitter facebook pinterest
 
 ####Twitter: Accepts an object of options to share
 
-*url:	URL of the page to share
-*via:	Screen name of the user to attribute the Tweet to
-*text:	Default Tweet text
-*related:	Related accounts
-*hashtags:	Comma separated hashtags appended to tweet text
+* url:	URL of the page to share
+* via:	Screen name of the user to attribute the Tweet to
+* text:	Default Tweet text
+* related:	Related accounts
+* hashtags:	Comma separated hashtags appended to tweet text
     
 ####Facebook: Accepts one argument a string
 -string - Url to share
