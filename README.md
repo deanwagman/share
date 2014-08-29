@@ -5,22 +5,22 @@ Simple sharing plugin for twitter facebook pinterest
 
 #Share has three methods.
   ## Twitter: Accepts an object of options to share
-    -  url:	URL of the page to share
-    -  via:	Screen name of the user to attribute the Tweet to
-    -  text:	Default Tweet text
-    -  related:	Related accounts
-    -  hashtags:	Comma separated hashtags appended to tweet text
+    -url:	URL of the page to share
+    -via:	Screen name of the user to attribute the Tweet to
+    -text:	Default Tweet text
+    -related:	Related accounts
+    -hashtags:	Comma separated hashtags appended to tweet text
     
   ## Facebook: Accepts one argument a string
-    -  string - Url to share
+    -string - Url to share
     
   ##Pinterest: Accepts an object of options to share
-    -  url: Url of the page to share
-    -  media: URL of media to pin
-    -  description: A description of the pin
+    -url: Url of the page to share
+    -media: URL of media to pin
+    -description: A description of the pin
     
 #To Use:
-  -  Call the Share Object, followed by one of the three methods passing through the arguments it accepts.
+  -Call the Share Object, followed by one of the three methods passing through the arguments it accepts.
   
 #Example (using jQuery):
 
