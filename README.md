@@ -14,15 +14,15 @@ Simple sharing plugin for twitter facebook pinterest
 * hashtags:	Comma separated hashtags appended to tweet text
     
 ####Facebook: Accepts one argument a string
--string - Url to share
+* string - Url to share
     
 ####Pinterest: Accepts an object of options to share
--url: Url of the page to share
--media: URL of media to pin
--description: A description of the pin
+* url: Url of the page to share
+* media: URL of media to pin
+* description: A description of the pin
     
 #To Use:
--Call the Share Object, followed by one of the three methods passing through the arguments it accepts.
+* Call the Share Object, followed by one of the three methods passing through the arguments it accepts.
   
 #Example (using jQuery):
 
@@ -48,4 +48,4 @@ $('a.tweet').click(function(event){
 ````
 
 #Notes:
-  - Popups will most likely be blocked by the Browser if share is not called within an event listener.
+* Popups will most likely be blocked by the Browser if share is not called within an event listener.
