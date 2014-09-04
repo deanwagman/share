@@ -1,5 +1,5 @@
 var SHARE = (function(){
-	// Private Variables
+// Private Variables
 
 	// Concats object into URL search parameter
 	var makeParamStr = function (obj) {
