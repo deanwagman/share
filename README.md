@@ -51,3 +51,4 @@ $('a.tweet').click(function(event){
 * Popups will most likely be blocked by the Browser if share is not called within an event listener.
 * Functionality depends on the third party websites. If they change their ish, my stuff don't work.
 * Facebook sharing pulls the open graph meta data from the destination website's head tag, which mean's you have to use what that site has set for its sharing settings.
+* Thanks for the help Jason
