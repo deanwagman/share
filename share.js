@@ -46,6 +46,12 @@ var SHARE = (function(){
 		pinterest: function (options) {
 			var url = "https://www.pinterest.com/pin/create/button/?" + makeParamStr(options);
 			openInNewWindow(url, "pinterest", 750, 320);
+		},
+		linkedin: function (options) {
+			// Adds Mandatory param to options
+			options.mini = true;
+			var url = "http://www.linkedin.com/shareArticle?" + makeParamStr(options);
+			openInNewWindow(url, "linkedin", 520, 570);
 		}
 	};
 
