@@ -20,6 +20,12 @@ Simple sharing plugin for twitter facebook pinterest
 * **url:** Url of the page to share
 * **media:** URL of media to pin
 * **description:** A description of the pin
+
+####Linkedin: Accepts an object of options to share
+* **url:** The permanent link to the article
+* **title:** The title of the article
+* **source:** The source of the article
+* **summary:** A brief summary of the article
     
 #To Use:
 * Call the Share Object, followed by one of the three methods passing through the arguments it accepts.
